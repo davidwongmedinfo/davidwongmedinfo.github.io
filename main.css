@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#il42s{
+  width:320px;
+  height:480px;
+}
+#iivp4{
+  text-align:left;
+}
+#i4fsh{
+  font-size:42px;
+  text-align:left;
+}
+#i80dr{
+  width:640px;
+  text-align: justify;
+}
+#i20lh{
+  width:1000px;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+  font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Jhenghei", sans-serif;
+  background-color:rgb(229, 242, 255);
+}
+.logo path{
+  pointer-events:none;
+  fill:none;
+  stroke-linecap:round;
+  stroke-width:7;
+  stroke:rgb(255, 255, 255);
+}
+.wechat-group img{
+  max-width:220px;
+  height:auto;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-right-radius:8px;
+  border-bottom-left-radius:8px;
+  margin-top:0px;
+  margin-right:auto;
+  margin-bottom:0px;
+  margin-left:auto;
+  width:100%;
+}
+.welcome-img img{
+  width:100%;
+}
+[data-aos]{
+  opacity:1 !important;
+  transform:translate(0px) scale(1) !important;
+}
+a{
+  color:rgb(23, 114, 208);
+  text-decoration-line:none;
+  text-decoration-thickness:initial;
+  text-decoration-style:initial;
+  text-decoration-color:initial;
+}
+a:focus, a:hover{
+  color:rgb(240, 146, 40);
+  text-decoration-line:none;
+  text-decoration-thickness:initial;
+  text-decoration-style:initial;
+  text-decoration-color:initial;
+}
+body, td, th, tr, p, a{
+  font-family:Lato, Verdana, Helvetica, sans-serif;
+  font-size:16px;
+}
+strong{
+  font-family:Lato, Verdana, Helvetica, sans-serif;
+  font-size:16px;
+}
+heading{
+  font-family:Lato, Verdana, Helvetica, sans-serif;
+  font-size:22px;
+}
+papertitle{
+  font-family:Lato, Verdana, Helvetica, sans-serif;
+  font-size:16px;
+  font-weight:700;
+}
+name{
+  font-family:Lato, Verdana, Helvetica, sans-serif;
+  font-size:35px;
+}
+span.highlight{
+  background-color:rgb(255, 255, 208);
+}
+.map-container{
+  text-align:center;
+}
+.highlight{
+  font-weight:700;
+  text-align:left;
+  background-color:#ffffff;
+}
+.c104752{
+  width:320px;
+}
