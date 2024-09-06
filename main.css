@@ -76,7 +76,9 @@ span.highlight{
   background-color:rgb(255, 255, 208);
 }
 .map-container{
-
+  bottom: 20;  
+  width: 100%;
+  max-width: 500px; 
 }
 .highlight{
   font-weight:700;
