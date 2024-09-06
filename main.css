@@ -76,7 +76,6 @@ span.highlight{
   background-color:rgb(255, 255, 208);
 }
 .map-container{
-  text-align:center;
   left: 50%;  
   transform: translateX(-50%);  
   bottom: 20;  
