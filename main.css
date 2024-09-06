@@ -76,11 +76,8 @@ span.highlight{
   background-color:rgb(255, 255, 208);
 }
 .map-container{
-  position: fixed;
-  left: 50%; 
-  transform: translateX(-50%);
   bottom: 20;  
-  width: 100%;
+  width: 10%;
   max-width: 360px; 
 }
 .highlight{
