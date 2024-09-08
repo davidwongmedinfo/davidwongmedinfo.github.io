@@ -1,0 +1,63 @@
+/* 设置页面背景色 */  
+body {  	
+    background-color: rgb(229, 242, 255);  
+	margin: 0;
+}  
+  
+.header-line {  
+    display: flex;  
+    background-color: #003366;  
+    justify-content: center; /* 使子元素水平居中 */  
+    align-items: center; /* 使子元素垂直居中 */  
+    height: 100px;  
+    margin: 0;  
+    padding: 0;  
+    overflow: hidden;  
+}  
+  
+.header-text {   
+    color: white;  
+    font-size: 36px;
+	font-weight: bold;
+    font-family: 'Century Gothic'	
+}
+  
+.container { 
+    display: flex; 
+    justify-content: center; 
+    width: 80%; /* 容器宽度 */  
+	margin: 0 auto;
+    max-width: 1200px; /* 最大宽度限制 */  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    gap: 20px; /* 方格之间的间距 */  
+
+    backdrop-filter: blur(10px); /* 应用背景模糊效果，但注意它只模糊背后的内容 */  
+    background-color: rgba(255, 255, 255, 0.5); /* 半透明背景色，与模糊效果结合（如果背后有内容且支持backdrop-filter） */
+}  
+  
+.grid-item {  
+    display: flex;  
+    align-items: center; /* 垂直居中 */  
+    width: 100%;  
+    background-color: rgba(255, 255, 255, 1); /* 背景色，可根据需要调整 */  
+    padding: 10px;  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3); /* 阴影效果 */  
+	border-radius: 10px; /* 可选，增加圆角使效果更自然 */ 
+}  
+  
+.grid-image img {  
+    width: 50%; /* 图片占据左侧一半宽度 */  
+    height: auto; /* 保持图片原始宽高比 */  
+    display: block; /* 移除图片下方的默认间距 */  
+}  
+  
+.grid-text {  
+    padding-left: 20px; /* 左侧内边距，与图片分隔 */  
+    flex: 1; /* 文本区域占据剩余空间 */  
+}  
+  
+.grid-text p {  
+    margin: 0; /* 移除段落默认的外边距 */  
+}
