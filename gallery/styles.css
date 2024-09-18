@@ -25,10 +25,9 @@ body {
 .container { 
     display: flex; 
     justify-content: center; 
-    width: 80%; /* 容器宽度 */  
+    width: 100%; /* 容器宽度 */  
 	margin: 0 auto;
     max-width: 1200px; /* 最大宽度限制 */  
-    display: flex;  
     flex-direction: column;  
     align-items: center;  
     gap: 20px; /* 方格之间的间距 */  
@@ -44,20 +43,24 @@ body {
     background-color: rgba(255, 255, 255, 1); /* 背景色，可根据需要调整 */  
     padding: 10px;  
     box-shadow: 0 2px 4px rgba(0,0,0,0.3); /* 阴影效果 */  
-	border-radius: 10px; /* 可选，增加圆角使效果更自然 */ 
+	border-radius: 10px; /* 可选，增加圆角使效果更自然 */
+	
 }  
-  
+.grid-image {  
+    /* 这是一个新的类，用于包裹图片 */  
+    margin-right: 20px; /* 右侧边距，与文本分隔 */  
+} 
 .grid-image img {  
-    width: 50%; /* 图片占据左侧一半宽度 */  
+    width: 400px; /* 图片占据左侧一半宽度 */  
     height: auto; /* 保持图片原始宽高比 */  
     display: block; /* 移除图片下方的默认间距 */  
 }  
   
-.grid-text {  
-    padding-left: 20px; /* 左侧内边距，与图片分隔 */  
-    flex: 1; /* 文本区域占据剩余空间 */  
+.grid-text {
+    width: 800px;
+    text-align: left; 	 
 }  
   
 .grid-text p {  
-    margin: 0; /* 移除段落默认的外边距 */  
+    margin: 10px; /* 移除段落默认的外边距 */  
 }
